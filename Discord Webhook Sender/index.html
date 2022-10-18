@@ -1,0 +1,38 @@
+<!DOcTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Discord Webhook Sender</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link href="img/icon32.ico" rel="shortcut icon" type="image/x-icon">
+</head>
+<body>
+  <section class="form">
+    <h1>Discord Webhook Sender</h1> 
+      <div class="int-area">
+        <input type="text" name="webhook" id="webhook" autocomplete="off">
+        <label for="webhook">Webhook</label>
+      </div>
+      <div class="int-area">
+        <input type="text" name="avartar" id="avartar" autocomplete="off">
+        <label for="avartar URL">Avartar URL</label>
+      </div>
+      <div class="int-area">
+        <input type="text" name="botname" id="botname" autocomplete="off">
+        <label for="botname">Bot name</label>
+      </div>
+      <div class="int-area">
+        <textarea name="contents" id="contents" autocomplete="off"></textarea>
+        <label for="contents">Contents</label>
+      </div>
+      <div class="btn-area">
+        <button id="btn" type="submit" onclick="sendMessage()">Send Message</button>
+      </div>
+      <div class="caption">
+        <a>All Rights Reserved By JunYeong</a>
+    </div>
+  </section>
+</body>
+</html>
